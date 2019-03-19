@@ -4,6 +4,7 @@
 
 `extract_id` grabs the id from the slug.
 
+https://hex.pm/packages/slugs
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
