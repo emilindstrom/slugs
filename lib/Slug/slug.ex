@@ -24,6 +24,7 @@ defmodule Slug do
     value =
       value
       |> String.downcase()
+      |> replace_unwanted_chars
       |> String.replace(~r/[^a-z0-9\_ \s-]/, "")
       |> String.replace(~r/(\s|-)+/, "-")
 
@@ -44,8 +45,14 @@ defmodule Slug do
       String.to_integer(slug)
     rescue
       error ->
-        IO.inspect(error)
         nil
     end
+  end
+
+  def replace_unwanted_chars(string) do
+    string
+    |> String.to_charlist()
+    |> Enum.map(fn char -> Translations.get(char) end)
+    |> to_string()
   end
 end
