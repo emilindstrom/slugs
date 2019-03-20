@@ -24,5 +24,5 @@ end
 iex> Slug.generate(1337,"Lord Of The Rings")
 "lord-of-the-rings-1337"
 iex> Slug.extract_id("lord-of-the-rings-1337")
-"1337"
+1337
 ```
