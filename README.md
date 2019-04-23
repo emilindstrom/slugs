@@ -1,4 +1,4 @@
-# Slugs [![hex.pm version](https://img.shields.io/hexpm/v/slugs.svg)](https://hex.pm/packages/slugs) [![hex.pm downloads](https://img.shields.io/hexpm/dt/slugs.svg)](https://hex.pm/packages/slugs)
+# Slugs [![hex.pm version](https://img.shields.io/hexpm/v/slugs.svg)](https://hex.pm/packages/slugs) [![hex.pm downloads](https://img.shields.io/hexpm/dt/slugs.svg)](https://hex.pm/packages/slugs) [![Build Status](https://travis-ci.com/emilindstrom/slugs.svg?branch=master)](https://travis-ci.com/emilindstrom/slugs)
 
 `generate` creates a slug from a combination of two values, preferably a combination of an id and a descriptive string.
 
