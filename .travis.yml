@@ -6,4 +6,4 @@ elixir:
 otp_release: '21.2'
 
 script: 
-  - mix do deps.get, compile, test
+  - MIX_ENV=test mix do deps.get, compile, test
