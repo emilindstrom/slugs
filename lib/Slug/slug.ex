@@ -49,6 +49,7 @@ defmodule Slug do
     end
   end
 
+  @spec replace_unwanted_chars(String.t()) :: String.t()
   def replace_unwanted_chars(string) do
     string
     |> String.to_charlist()

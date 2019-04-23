@@ -1,4 +1,5 @@
 defmodule Translations do
+  @spec get(char) :: char
   def get(char) do
     case [char] do
       'ä' -> 'a'
